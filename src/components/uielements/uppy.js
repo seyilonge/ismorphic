@@ -1,11 +1,13 @@
-import Uppy from 'uppy/lib/core';
-import Dashboard from 'uppy/lib/plugins/Dashboard';
-import GoogleDrive from 'uppy/lib/plugins/GoogleDrive';
-import Dropbox from 'uppy/lib/plugins/Dropbox';
-import Instagram from 'uppy/lib/plugins/Instagram';
-import Webcam from 'uppy/lib/plugins/Webcam';
-import Tus10 from 'uppy/lib/plugins/Tus10';
-import MetaData from 'uppy/lib/plugins/MetaData';
+import {
+  Dashboard,
+  Dropbox,
+  GoogleDrive,
+  Instagram,
+  MetaData,
+  Tus10,
+  Uppy,
+  Webcam
+} from 'uppy';
 
 const SERVER = null;
 
